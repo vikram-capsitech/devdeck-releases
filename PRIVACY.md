@@ -1,6 +1,6 @@
 # DevDeck privacy policy
 
-*Last updated: October 23, 2026 · DevDeck by VR Dev Tools*
+*Last updated: November 23, 2026 · DevDeck by VR Dev Tools*
 
 DevDeck is a desktop app that helps developers manage their own computer: running servers, services, tools, projects and local test deployments. It runs on your computer and **doesn't collect, send or sell information about you**.
 
@@ -26,6 +26,7 @@ Passwords and tokens you save in DevDeck, such as database connections or API ke
 | You run a project security check | OSV (`api.osv.dev`), npm, PyPI | Names and versions of your project's packages, to look up known problems |
 | You run a network test | `ipinfo.io`, Cloudflare (`1.1.1.1`) | A request to learn your public IP address and test speed and DNS |
 | You check a website | That website, and public domain records (`rdap.org`, Cloudflare DNS) | Normal requests a browser would make to that site |
+| You press **Ask AI** on an unknown program (optional) | Your own Claude Code, which sends it to Anthropic under your Claude account and their terms | The program's name, its file path (your user folder shown as `~`) and its publisher, nothing else |
 | You view AI tool costs in a currency other than US dollars | `open.er-api.com` | A request for today's exchange rates |
 | You install a tool, or browse skills and add-ons | The tool's official site, GitHub, npm or the package manager you choose | Normal download requests |
 | You create a public share link for a local project | Cloudflare (quick tunnel) | Your local app is reachable at the link until you stop it (it always stops when DevDeck quits) |
@@ -38,6 +39,10 @@ These services have their own privacy policies. DevDeck sends them only what's d
 - Apart from the update check, every feature that sends something starts only when you press its button. *Settings → DevDeck updates* lets you choose whether updates download and install by themselves.
 - Removing DevDeck: the Windows uninstaller asks whether to delete DevDeck's settings and data as well. On macOS, delete the folder above.
 
+## AI-generated answers
+
+**Ask AI** is optional and only runs when you press it, using the Claude Code already installed and signed in on your computer. The answer is AI-generated and can be wrong. Under each answer, **Report this answer** opens an email to us with the answer, for you to review and send, and **Hide it** removes it from DevDeck.
+
 ## Children
 
 DevDeck is a tool for software developers and is not directed at children.
@@ -48,4 +53,4 @@ If this policy changes, the new version is published here with a new date.
 
 ## Contact
 
-Questions or concerns: open an issue at [github.com/vikram-capsitech/devdeck-releases/issues](https://github.com/vikram-capsitech/devdeck-releases/issues).
+Questions or concerns: email **info@fewthreads.com**, or open an issue at [github.com/vikram-capsitech/devdeck-releases/issues](https://github.com/vikram-capsitech/devdeck-releases/issues). Website: [devdeck.fewthreads.com](https://devdeck.fewthreads.com/).
